@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="play-services-contextmanager-9.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a1e9d230bdbcca30c090e31d42fe42ff3a32a060/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a1e9d230bdbcca30c090e31d42fe42ff3a32a060/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

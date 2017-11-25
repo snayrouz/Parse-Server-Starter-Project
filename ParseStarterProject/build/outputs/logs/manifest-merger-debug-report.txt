@@ -1,0 +1,424 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+	package
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
+	android:versionCode
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/e07e4cca3155d2d870f83ef2c50a6199a08167d0/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:19:5-67
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/samuelnayrouz/.android/build-cache/3bede9aabb4afa4c47242999e8a3942c1c517c43/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/78d47bb4e813b72cf1232df96435fa07ddbb85d9/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/6a2f89875eeb70700daa8676d32d13c3fb4a1a69/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/e07e4cca3155d2d870f83ef2c50a6199a08167d0/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/samuelnayrouz/.android/build-cache/8403ce456611e610994d3746dd8d1b01864ed149/output/AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/6a2f89875eeb70700daa8676d32d13c3fb4a1a69/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:16:22-76
+application
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:18:5-36:19
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/samuelnayrouz/.android/build-cache/6b12f1dcb3d7a9996b138d89852eaf84741b3ce8/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/e07e4cca3155d2d870f83ef2c50a6199a08167d0/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:5:5-9:19
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/samuelnayrouz/.android/build-cache/cd422246e630586739fbdf807445d3c32424205a/output/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/samuelnayrouz/.android/build-cache/514d5ddfc8177d446281417c372350c80a3b1086/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/samuelnayrouz/.android/build-cache/d8424f535a9971771aee872796cdf0e6718b6524/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/samuelnayrouz/.android/build-cache/034c9fee3661b5738611bd098785057ac95d296b/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/samuelnayrouz/.android/build-cache/7ebaef588580926d75998670429627837d446ca4/output/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/samuelnayrouz/.android/build-cache/647ea405eff286cdeed391d39804a4e82e30a310/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/samuelnayrouz/.android/build-cache/e08291a0c5c4a2b51bfaea5a9391bcf738e0068e/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/samuelnayrouz/.android/build-cache/a1e9d230bdbcca30c090e31d42fe42ff3a32a060/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/6071d30d4e343f6b712007878f0954562a45025e/output/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/a66b2b66ea799de3323d4119c8baa2cfe2f739ce/output/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/samuelnayrouz/.android/build-cache/2407bb088aabe9d7493560b0c8defe50553c67d1/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/samuelnayrouz/.android/build-cache/aa7c13781537695420d9bdbd95120cc4b7195a74/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/samuelnayrouz/.android/build-cache/541d1bbce2fc079cb2f976311bceae07cda66ab0/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/samuelnayrouz/.android/build-cache/aed837fec687415e287a1a0aeb0c047978af8e89/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/samuelnayrouz/.android/build-cache/3bede9aabb4afa4c47242999e8a3942c1c517c43/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/samuelnayrouz/.android/build-cache/ea8d122956d4af7a6f2a2143ea2624803902fc67/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/78d47bb4e813b72cf1232df96435fa07ddbb85d9/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/samuelnayrouz/.android/build-cache/d859e7caa9317ceb280e0a49706014d42ef0b795/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/samuelnayrouz/.android/build-cache/8403ce456611e610994d3746dd8d1b01864ed149/output/AndroidManifest.xml:6:5-20
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/samuelnayrouz/.android/build-cache/b76fd8a716213fae2059f5585800aa23b2ba5474/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/samuelnayrouz/.android/build-cache/664968a271134971a0cd1a684d84dc51efc576dd/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/samuelnayrouz/.android/build-cache/8c92a9886d0b5c844507bd2e536255b251b6c8dd/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/samuelnayrouz/.android/build-cache/f38a0f38d743a20e7d7f151189087399ccb0eb95/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/6a2f89875eeb70700daa8676d32d13c3fb4a1a69/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/samuelnayrouz/.android/build-cache/1a0c8ac2dae4bd791ec12ed984d28064b49924cf/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/samuelnayrouz/.android/build-cache/e8b9872bb08b3bf470373ec217703e4d03b3f8a6/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/samuelnayrouz/.android/build-cache/da379eae24a6675feef067a89095b2a2c983494d/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/4abf975a13aa121f9f969b086b6b689adbcdcb0e/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/samuelnayrouz/.android/build-cache/746b8347ecaeb3c0208a2dd25cd5a9bd0401f79c/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/samuelnayrouz/.android/build-cache/189fa6e4a00051d12d9e9370d515453b404ae678/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.4.0] /Users/samuelnayrouz/.android/build-cache/a87b4108bf8a68e9d198f3ff911775d8a11d7c7e/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:21:9-43
+	android:theme
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+activity#com.parse.starter.MainActivity
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:26:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml:31:27-74
+uses-sdk
+INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:9.4.0] /Users/samuelnayrouz/.android/build-cache/6b12f1dcb3d7a9996b138d89852eaf84741b3ce8/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/samuelnayrouz/.android/build-cache/b3a7263368f94b27eddff52985202c9dc1022488/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/e07e4cca3155d2d870f83ef2c50a6199a08167d0/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/21baccc080ceeabc5c2e9ef4575ef42018e9a7cd/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/samuelnayrouz/.android/build-cache/cd422246e630586739fbdf807445d3c32424205a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/samuelnayrouz/.android/build-cache/514d5ddfc8177d446281417c372350c80a3b1086/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/samuelnayrouz/.android/build-cache/d8424f535a9971771aee872796cdf0e6718b6524/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/samuelnayrouz/.android/build-cache/034c9fee3661b5738611bd098785057ac95d296b/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/samuelnayrouz/.android/build-cache/7ebaef588580926d75998670429627837d446ca4/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/samuelnayrouz/.android/build-cache/647ea405eff286cdeed391d39804a4e82e30a310/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/samuelnayrouz/.android/build-cache/e08291a0c5c4a2b51bfaea5a9391bcf738e0068e/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/samuelnayrouz/.android/build-cache/a1e9d230bdbcca30c090e31d42fe42ff3a32a060/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.firebase:firebase-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/6071d30d4e343f6b712007878f0954562a45025e/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/a66b2b66ea799de3323d4119c8baa2cfe2f739ce/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.4.0] /Users/samuelnayrouz/.android/build-cache/0653b6a52fa57ed39295a3b85646c9c2d8ab74ef/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database:9.4.0] /Users/samuelnayrouz/.android/build-cache/d15641077ba431d50356cd8b4c3c565725bb5fe7/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.4.0] /Users/samuelnayrouz/.android/build-cache/49211dac8a98a6a506665812e3d25981ae20ba35/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-storage:9.4.0] /Users/samuelnayrouz/.android/build-cache/a941427ae932691ce7a810d323a44c98eca350d5/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/d45c91fff9e92d9087846ed901bcebf7d8fb1892/output/AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/samuelnayrouz/.android/build-cache/2407bb088aabe9d7493560b0c8defe50553c67d1/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/samuelnayrouz/.android/build-cache/aa7c13781537695420d9bdbd95120cc4b7195a74/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/samuelnayrouz/.android/build-cache/541d1bbce2fc079cb2f976311bceae07cda66ab0/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.4.0] /Users/samuelnayrouz/.android/build-cache/aed837fec687415e287a1a0aeb0c047978af8e89/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/samuelnayrouz/.android/build-cache/3bede9aabb4afa4c47242999e8a3942c1c517c43/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/samuelnayrouz/.android/build-cache/ea8d122956d4af7a6f2a2143ea2624803902fc67/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/78d47bb4e813b72cf1232df96435fa07ddbb85d9/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/samuelnayrouz/.android/build-cache/d859e7caa9317ceb280e0a49706014d42ef0b795/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/samuelnayrouz/.android/build-cache/8403ce456611e610994d3746dd8d1b01864ed149/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/samuelnayrouz/.android/build-cache/b76fd8a716213fae2059f5585800aa23b2ba5474/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/samuelnayrouz/.android/build-cache/664968a271134971a0cd1a684d84dc51efc576dd/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/samuelnayrouz/.android/build-cache/8c92a9886d0b5c844507bd2e536255b251b6c8dd/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.4.0] /Users/samuelnayrouz/.android/build-cache/f38a0f38d743a20e7d7f151189087399ccb0eb95/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.4.0] /Users/samuelnayrouz/.android/build-cache/8ca7164b54b70e589e494fd4606b2b5262a7a1af/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/6a2f89875eeb70700daa8676d32d13c3fb4a1a69/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /Users/samuelnayrouz/.android/build-cache/1a0c8ac2dae4bd791ec12ed984d28064b49924cf/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/samuelnayrouz/.android/build-cache/2351f2acfdc2b73dd6b826bf28af5867368253d0/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/samuelnayrouz/.android/build-cache/e8b9872bb08b3bf470373ec217703e4d03b3f8a6/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.4.0] /Users/samuelnayrouz/.android/build-cache/da379eae24a6675feef067a89095b2a2c983494d/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/4abf975a13aa121f9f969b086b6b689adbcdcb0e/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/samuelnayrouz/.android/build-cache/746b8347ecaeb3c0208a2dd25cd5a9bd0401f79c/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/samuelnayrouz/.android/build-cache/189fa6e4a00051d12d9e9370d515453b404ae678/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.4.0] /Users/samuelnayrouz/.android/build-cache/a87b4108bf8a68e9d198f3ff911775d8a11d7c7e/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.0] /Users/samuelnayrouz/.android/build-cache/fe027edc9218c3995e6c18d924050db5182e98fa/output/AndroidManifest.xml:18:5-42
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/samuelnayrouz/.android/build-cache/d8424f535a9971771aee872796cdf0e6718b6524/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/samuelnayrouz/.android/build-cache/ba09b98fb39cb3b014b0c9b5b61ea5431b96240b/output/AndroidManifest.xml:30:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/e07e4cca3155d2d870f83ef2c50a6199a08167d0/output/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/6a2f89875eeb70700daa8676d32d13c3fb4a1a69/output/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/e07e4cca3155d2d870f83ef2c50a6199a08167d0/output/AndroidManifest.xml:25:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:26:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:27:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.4.0] /Users/samuelnayrouz/.android/build-cache/bcf5a751a27371e37343325b673fd9023a8c0481/output/AndroidManifest.xml:27:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:21:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.4.0] /Users/samuelnayrouz/.android/build-cache/b0e8605d498f074eb9ccc4ac95ae759aa970f6e0/output/AndroidManifest.xml:29:13-58
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:6:9-100
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:6:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:7:9-104
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:7:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:8:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/samuelnayrouz/.android/build-cache/bc2da2013cb97feacd993868cd37088e5bfc2b1a/output/AndroidManifest.xml:8:18-90
+service#com.google.firebase.crash.internal.service.FirebaseCrashReceiverService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:26:9-27:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:26:18-79
+service#com.google.firebase.crash.internal.service.FirebaseCrashSenderService
+ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:29:9-30:50
+	android:process
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:30:13-48
+	android:name
+		ADDED from [com.google.firebase:firebase-crash:9.4.0] /Users/samuelnayrouz/.android/build-cache/8b33b75562c2e58fe5b113fe8e7a444eac75b929/output/AndroidManifest.xml:29:18-77
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] /Users/samuelnayrouz/.android/build-cache/7369f4cf58a95d1317a99c05622aedf88d786848/output/AndroidManifest.xml:28:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/samuelnayrouz/.android/build-cache/3bede9aabb4afa4c47242999e8a3942c1c517c43/output/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/78d47bb4e813b72cf1232df96435fa07ddbb85d9/output/AndroidManifest.xml:21:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/samuelnayrouz/.android/build-cache/3bede9aabb4afa4c47242999e8a3942c1c517c43/output/AndroidManifest.xml:21:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:25:9-27:42
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:27:17-39
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:25:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:28:9-37:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:29:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:31:13-36:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:32:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:32:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:33:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/samuelnayrouz/.android/build-cache/b35a823149c6d13dcfea7f15fbd61b22aa3b571f/output/AndroidManifest.xml:35:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] /Users/samuelnayrouz/.android/build-cache/c5566857a36ca483cdb6c2b761c223290987779a/output/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] /Users/samuelnayrouz/.android/build-cache/f05194997ff25790f49157ebe6dad6ba0aa948d1/output/AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] /Users/samuelnayrouz/.android/build-cache/c7b194241e35d15e051f378d99b64324a89c6c0e/output/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] /Users/samuelnayrouz/.android/build-cache/652bd77668f8a415911c0ddb10bc9e9a0008e6bc/output/AndroidManifest.xml:9:13-58
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/samuelnayrouz/.android/build-cache/97b8582dda36573bb18979140a44066c0d41b045/output/AndroidManifest.xml:24:8-31
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/4abf975a13aa121f9f969b086b6b689adbcdcb0e/output/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/4abf975a13aa121f9f969b086b6b689adbcdcb0e/output/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/4abf975a13aa121f9f969b086b6b689adbcdcb0e/output/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/samuelnayrouz/.android/build-cache/4abf975a13aa121f9f969b086b6b689adbcdcb0e/output/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/samuelnayrouz/.android/build-cache/189fa6e4a00051d12d9e9370d515453b404ae678/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/samuelnayrouz/.android/build-cache/189fa6e4a00051d12d9e9370d515453b404ae678/output/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /Users/samuelnayrouz/.android/build-cache/189fa6e4a00051d12d9e9370d515453b404ae678/output/AndroidManifest.xml:22:13-58

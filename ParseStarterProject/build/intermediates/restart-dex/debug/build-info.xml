@@ -6,22 +6,22 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1511646177600"
+    timestamp="1511648493013"
     token="-123172622864032576"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="659" />
+        duration="1112" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="61" />
+        duration="151" />
     <task
         name="verifier"
-        duration="5" />
+        duration="2" />
 
     <artifact
         location="/Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511646177600"
+        timestamp="1511648493013"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"

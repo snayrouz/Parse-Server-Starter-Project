@@ -1,4 +1,4 @@
-#Sat Nov 25 14:20:18 MST 2017
+#Sat Nov 25 14:39:48 MST 2017
 base.0=/Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e29c24b9ae2a96a401ea910c863e466e4ebf1330
 renamed.1=classes.dex
 renamed.0=classes2.dex

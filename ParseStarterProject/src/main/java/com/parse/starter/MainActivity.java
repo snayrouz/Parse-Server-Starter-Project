@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.LogInCallback;
@@ -27,9 +28,34 @@ import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    public void signUp(View view) {
+  Boolean signupModeActive = true;
+
+  TextView changeSignupModeTextView;
+
+  @Override
+  public void onClick(View view) {
+    if (view.getId() == R.id.changeSignupModeTextView) {
+      Button signupButton = (Button) findViewById(R.id.signupButton);
+
+      if ( signupModeActive ) {
+
+        signupModeActive = false;
+        signupButton.setText("Login");
+        changeSignupModeTextView.setText("or, Signup")
+
+      } else {
+
+        signupModeActive = true;
+        signupButton.setText("Signup");
+        changeSignupModeTextView.setText("or, Login")
+      }
+
+    }
+  }
+
+  public void signUp(View view) {
 
       EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
 
@@ -40,6 +66,8 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "A username and password are required", Toast.LENGTH_SHORT).show();
 
       } else {
+
+        if (signupModeActive) {
 
         ParseUser user = new ParseUser();
 
@@ -57,13 +85,34 @@ public class MainActivity extends AppCompatActivity {
             }
           }
         });
+
+        } else {
+          ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
+            @Override
+            public void done(ParseUser user, ParseException e) {
+              if (user != null) {
+
+                Log.i("Signup", "Login Successful")
+
+              } else {
+                Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+              }
+
+            }
+          });
+        }
+
       }
+
     }
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
+
+    changeSignupModeTextView = (TextView) findViewById(R.id.changeSignupModeTextView);
+    changeSignupModeTextView.setOnClickListener(this);
 
 
     

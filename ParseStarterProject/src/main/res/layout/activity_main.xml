@@ -20,7 +20,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        app:srcCompat="@drawable/insta"
+        app:srcCompat="@drawable/instagramlogo"
         android:id="@+id/logoImageView"
         android:layout_height="70dp"
         android:layout_alignParentTop="true"

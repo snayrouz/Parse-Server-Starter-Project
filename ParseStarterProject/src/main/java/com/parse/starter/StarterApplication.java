@@ -30,9 +30,9 @@ public class StarterApplication extends Application {
 
     // Add your initialization code here
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("")
-            .clientKey("")
-            .server("")
+            .applicationId()
+            .clientKey()
+            .server()
             .build()
     );
 
@@ -47,14 +47,3 @@ public class StarterApplication extends Application {
   }
 }
 
-
-
-    ParseUser.enableAutomaticUser();
-
-    ParseACL defaultACL = new ParseACL();
-    defaultACL.setPublicReadAccess(true);
-    defaultACL.setPublicWriteAccess(true);
-    ParseACL.setDefaultACL(defaultACL, true);
-
-  }
-}

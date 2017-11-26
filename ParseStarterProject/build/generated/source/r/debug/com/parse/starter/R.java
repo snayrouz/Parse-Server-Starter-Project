@@ -2819,7 +2819,7 @@ containing a value of this type.
         public static final int icon_view=0x7f0e00b6;
         public static final int ifRoom=0x7f0e0041;
         public static final int image=0x7f0e0071;
-        public static final int imageView=0x7f0e009c;
+        public static final int logoImageView =0x7f0e009c;
         public static final int index_entity_types=0x7f0e004a;
         public static final int info=0x7f0e00d7;
         public static final int instant_message=0x7f0e0036;

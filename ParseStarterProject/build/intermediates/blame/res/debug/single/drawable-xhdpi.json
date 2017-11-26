@@ -32,12 +32,12 @@
         "source": "/Users/robpercival/Desktop/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xhdpi/ic_media_route_on_0_mono_dark.png"
     },
     {
-        "merged": "/Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_off_light.png",
-        "source": "/Users/samuelnayrouz/.android/build-cache/514d5ddfc8177d446281417c372350c80a3b1086/output/res/drawable-xhdpi/ic_cast_off_light.png"
-    },
-    {
         "merged": "/Users/robpercival/AndroidStudioProjects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_on_0_mono_dark.png",
         "source": "/Users/robpercival/AndroidStudioProjects/Uber/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-xhdpi/ic_media_route_on_0_mono_dark.png"
+    },
+    {
+        "merged": "/Users/samuelnayrouz/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_off_light.png",
+        "source": "/Users/samuelnayrouz/.android/build-cache/514d5ddfc8177d446281417c372350c80a3b1086/output/res/drawable-xhdpi/ic_cast_off_light.png"
     },
     {
         "merged": "/Users/robpercival/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_on_2_light.png",
